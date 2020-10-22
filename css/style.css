@@ -1,6 +1,10 @@
 /* Codice da aggiungere per la riga 5 al
 framework */
-
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
 [class*="col-"] {   /* tutte le classi che iniziano con col- hanno il codice sotto */
   position: relative;
@@ -13,7 +17,7 @@ span {
   transform: translate(-50%, -50%);
 }
 
-
-  background-color: aqua;
-  padding: 20px;
+.col-6 > [class*="col-"] {  /* tutte le classi che iniziano con col- figlie dirette di col-6 */
+  background-color: crimson;
+  border: 1px solid white;
 }
