@@ -4,7 +4,6 @@ framework */
 
 [class*="col-"] {   /* tutte le classi che iniziano con col- hanno il codice sotto */
   position: relative;
-
 }
 
 span {
@@ -12,4 +11,9 @@ span {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+
+  background-color: aqua;
+  padding: 20px;
 }
