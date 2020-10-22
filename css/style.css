@@ -1,0 +1,15 @@
+/* Codice da aggiungere per la riga 5 al
+framework */
+
+
+[class*="col-"] {   /* tutte le classi che iniziano con col- hanno il codice sotto */
+  position: relative;
+
+}
+
+span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
