@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-.debug [class*="col-"]{
+.debug [class*="col-"] {
   background-color: lightpink;
   height: 200px;
   border: 2px solid black;
